@@ -3,8 +3,6 @@ package dev.akashpatil.razorpay.operations.entity;
 import jakarta.persistence.*;
 import lombok.*;
 
-import java.util.UUID;
-
 @Entity
 @Table(name = "settlement_payments")
 @Getter

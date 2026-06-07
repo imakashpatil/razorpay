@@ -14,7 +14,6 @@ import java.util.UUID;
  *         string name
  *         string email
  *         string contactNumber
- *
  *     };
  */
 @Entity

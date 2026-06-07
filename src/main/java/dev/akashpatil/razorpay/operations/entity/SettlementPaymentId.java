@@ -1,8 +1,6 @@
 package dev.akashpatil.razorpay.operations.entity;
 
 import jakarta.persistence.Embeddable;
-import jakarta.persistence.Embedded;
-import jakarta.persistence.Entity;
 
 import java.util.UUID;
 
