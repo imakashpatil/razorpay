@@ -32,7 +32,7 @@ public class Customer {
 
     @ManyToOne(fetch = FetchType.LAZY, optional = false)
     @JoinColumn(name = "merchant_id", nullable = false, foreignKey = @ForeignKey(name = "fk_customer_merchant"))
-    private UUID merchantId;
+    private Merchant merchant;
 
     @Column(length = 200)
     private String name;
